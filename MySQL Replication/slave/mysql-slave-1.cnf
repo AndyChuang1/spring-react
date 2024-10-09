@@ -1,0 +1,9 @@
+[mysqld]
+server_id=2
+binlog_format=ROW
+log-bin=mysql-bin
+relay-log=relay-bin
+max_binlog_size=100M
+gtid_mode=ON
+enforce-gtid-consistency=true
+read_only=ON
